@@ -1,0 +1,51 @@
+The following is a sample code snippet of the smart contract between a company and the influencer that they have chosen to partner with.
+
+
+pragma solidity ^0.4.0;
+
+contract brandPartnership {
+  uint totalReceived = 0;
+  address company;
+  mapping (address => uint) public commissionAmount;
+  mapping (address => uint) public withdrawnCommission;
+  function brandPartnership() payable public {
+    updateTotalReceived();
+    company = msg.influencer;
+  }
+
+  function () payable public {
+    updateTotalReceived();
+  }
+
+  function updateTotalReceived() internal {
+    totalReceived += msg.value;
+  }
+
+  function addAddress(address _commissionAddress, uint _commission) isCompany public {
+    if (msg.influencer == company) {
+      commissionAmount[_commissionAddress] = _commission;
+    }
+  }
+
+  modifier isCompany() {
+    require(msg.influencer == company);
+    _;
+  }
+
+  modifier canWithdraw() {
+    require(commissionAmount[msg.influencer] > 0);
+    _;
+  }
+
+  function withdraw() canWithdraw public  {
+    uint amountPaid = withdrawnCommission[msg.influencer];
+    uint influencerCommission = commissionAmount[msg.influencer];
+    uint commissionToPay = influencerCommission - amountPaid;
+
+    if (commissionToPay > 0) {
+      withdrawnCommission[msg.influencer] = amountPaid + commissionToPay;
+      msg.influencer.transfer(commissionToPay);
+    }
+  }
+}
+
