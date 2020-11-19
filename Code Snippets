@@ -1,4 +1,4 @@
-The following is a sample code snippet of the smart contract between a company and the influencer that they have chosen to partner with.
+The following code is a sample smart contract on the SocialChains platform -- it describes a brand partnership between a company and an influencer. 
 
 
 pragma solidity ^0.4.0;
