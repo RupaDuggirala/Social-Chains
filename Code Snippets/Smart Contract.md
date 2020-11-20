@@ -1,17 +1,17 @@
 The following code is a sample blockchain smart contract on the SocialChains platform -- it describes a brand partnership between a company and an influencer. The smart contract is written in the programming language Solidity and can ultimately be run on the Ethereum virtual machine!
 
+```
+pragma solidity ^0.4.0; 
 
-pragma solidity ^0.4.0;
-
-contract brandPartnership {
-  uint totalReceived = 0;
-  address company;
-  mapping (address => uint) public commissionAmount;
-  mapping (address => uint) public withdrawnCommission;
-  function brandPartnership() payable public {
-    updateTotalReceived();
+contract brandPartnership { 
+  uint totalReceived = 0; 
+  address company; 
+  mapping (address => uint) public commissionAmount; 
+  mapping (address => uint) public withdrawnCommission; 
+  function brandPartnership() payable public { 
+    updateTotalReceived(); 
     company = msg.influencer;
-  }
+  } 
 
   function () payable public {
     updateTotalReceived();
@@ -48,3 +48,4 @@ contract brandPartnership {
     }
   }
 }
+```
