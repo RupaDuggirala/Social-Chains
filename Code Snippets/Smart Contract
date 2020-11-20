@@ -1,4 +1,4 @@
-The following code is a sample blockchain smart contract on the SocialChains platform -- it describes a brand partnership between a company and an influencer. 
+The following code is a sample blockchain smart contract on the SocialChains platform -- it describes a brand partnership between a company and an influencer. The smart contract is written in the programming language Solidity and can ultimately be run on the Ethereum virtual machine!
 
 
 pragma solidity ^0.4.0;
