@@ -31,5 +31,8 @@ Our mission is simple:
 ### **Our Business Model**
 
 Currently, MCNs take 50% of
-revenue, to start out, we will begin
+revenue; to start out, we will begin
 by taking 30%.
+<p align="center">
+  <img src="Images/Business Model.PNG" />
+</p>
