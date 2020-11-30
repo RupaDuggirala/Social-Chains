@@ -12,7 +12,7 @@ This GitHub repo contains the following components: <br>
 * **App Prototypes**
     * We've created prototypes in Figma to visualize all of the features on the SocialChains platform.
 * **Code Snippets**
-    * We've included sample code for the landing page, opportunities dashboard, and blockchain smart contracts.
+    * We've included sample code for the landing page, opportunities dashboard, and smart contracts.
 * **Technical White Paper** 
     * We've outlined an introduction to the startup idea and the overall technical design + architecture.
 
