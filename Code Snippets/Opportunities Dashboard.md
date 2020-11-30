@@ -30,7 +30,7 @@ const PageView = ({page}) => {
   )
 }
 
-const MenuItem = ({title, icon}) => {
+const MenuItem = ({title}) => {
   var menuItemStyle = {
     display: 'block',
     padding: '10px',
@@ -38,14 +38,9 @@ const MenuItem = ({title, icon}) => {
     margin: '0 -15px',
     borderBottom: '1px solid rgb(35, 50, 66)'
   };
-  
-  var iconStyle = {
-    marginRight: '10px'
-  }
-  
+   
   return (
     <a href="#" style={menuItemStyle}>
-      <i className={'fa fa-fw fa-' + icon} style={iconStyle}></i>
       {title}
     </a>  
   )
@@ -59,7 +54,7 @@ const Menu = ({pages}) => {
   return (
     <nav style={navStyle} >
       {pages.map((page) => {
-        return <MenuItem title={page.name} icon={page.icon} />
+        return <MenuItem title={page.name} />
       })}
     </nav>
   )
