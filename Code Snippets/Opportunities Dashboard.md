@@ -1,4 +1,6 @@
-Add descriptive text here.
+The web interface of the SocialChains platform will be constructed in React, Redux, and Sass. This page is a sample of the code that will be used to create the opportunities dashboard -- it is written entirely in React! We plan to utilize Redux and Sass in conjunction with this code in order to enhance the UI + styling of the app, as per what was visualized through the app prototypes.
+
+As of now, the dashboard is structured to merely include specialized tabs for each company that an influencer could potentially partner with -- these initial suggestions are developed from our internal matching algorithm. We plan to introduce additional features to enhance this dashboard, such as a text feature for influencers to communicate the partnership terms with company reps, and an option for companies to communicate their interest in influencers that they would like to work with. 
 
 ```
 const Sidebar = ({children}) => {
