@@ -1,7 +1,7 @@
 <h1 align="center">SocialChains</h1>
 
 <p align="center">
-    This is the startup idea built for IEOR 185: Disruptive Technology and Social Impact Challenge Lab, created by Rupa Duggirala, Jah’rel Moyenda, Victoria Salem, Shahrukh Shaikh, Tabitha Tcheau, and Kelly Trinh. </p>
+    This is the startup idea built for the course IEOR 185: Disruptive Technology and Social Impact Challenge Lab; it was created by Rupa Duggirala, Jah’rel Moyenda, Victoria Salem, Shahrukh Shaikh, Tabitha Tcheau, and Kelly Trinh. </p>
 
 <p align="center">
   <img src="Technical White Paper/Images/SocialChains Logo.PNG" width="450" height="250"/>
@@ -14,7 +14,7 @@ This GitHub repo contains the following components: <br>
 * **Code Snippets**
     * We've included sample code for the landing page, opportunities dashboard, and smart contracts.
 * **Technical White Paper** 
-    * We've outlined an introduction to the startup idea and the overall technical design + architecture.
+    * We've outlined the startup idea and the overall technical design + architecture of the app.
 
 ## Additional Links
 * [Figma Prototypes](https://www.figma.com/file/7yqy3X9GDpoeHaCXAtrTO9/SocialChains?node-id=0%3A1)
