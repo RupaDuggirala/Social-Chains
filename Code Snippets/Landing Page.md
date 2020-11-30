@@ -1,4 +1,5 @@
-Add description here.
+The web interface of the SocialChains platform will be constructed in React, Redux, and Sass. This page is a sample of the code that will be used to create the landing page of the app -- it is written entirely in React! We plan to utilize Redux and Sass in conjunction with this code in order to enhance the UI + styling of the app, as per what was visualized through the app prototypes.
+<br>
 
 ```
 const Title = () => <h1 className="Title">SocialChains</h1>;
