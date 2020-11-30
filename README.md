@@ -18,4 +18,4 @@ This GitHub repo contains the following components: <br>
 
 ## Additional Links
 * [Figma Prototypes](https://www.figma.com/file/7yqy3X9GDpoeHaCXAtrTO9/SocialChains?node-id=0%3A1)
-* [Pitch Deck](https://docs.google.com/presentation/d/15zPEGphRG2oQOfFaWb9Pdpn6kMJGZqqIvp34U5Szt_Q/edit?usp=sharing)
+* [Pitch Deck](https://docs.google.com/presentation/d/1DKANW8_qDIbd0w3c0wZV9fASG6mc6YaxUfAV10MVQy0/edit?usp=sharing)
