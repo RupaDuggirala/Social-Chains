@@ -8,7 +8,7 @@
 </p>
 
 ## Our Project
-This GitHub repo contains the following components: <br>
+This GitHub repo contains the following: <br>
 * **App Prototypes**
     * We've created prototypes in Figma to visualize all of the features on the SocialChains platform.
 * **Code Snippets**
