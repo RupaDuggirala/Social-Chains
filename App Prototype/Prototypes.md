@@ -1,4 +1,4 @@
-To bring SocialChains to life, we've created a few app prototypes to visualize all of the components that we would like to include within this platform!
+In order to bring SocialChains to life, we've created a few app prototypes to visualize all of the components that we would like to include within this platform!
 
 <p align="center">
   <img src="Images/Prototypes.gif" width="900" height="270"/>
